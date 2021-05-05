@@ -28,7 +28,6 @@ column_headers = [
 ]
 df = pd.DataFrame([],columns=column_headers,dtype=object) # initialise empty dataframe with column headers
 
-counter = 1
 page_no = 0
 total_records_fetched = 0
 total_pages = TOTAL_RECORDS_TO_FETCH // RECORDS_PER_PAGE
